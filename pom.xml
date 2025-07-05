@@ -4,13 +4,13 @@
     <parent>
         <artifactId>plugins</artifactId>
         <groupId>org.igniterealtime.openfire</groupId>
-        <version>5.0.0-beta</version>
+        <version>5.0.1-jakarta-04072025</version>
     </parent>
     <groupId>org.igniterealtime.openfire.plugins</groupId>
     <artifactId>httpfileupload</artifactId>
     <name>HTTP File Upload Plugin</name>
     <description>Allows clients to share files, as described in the XEP-0363 'HTTP File Upload' specification.</description>
-    <version>1.5.0</version>
+    <version>1.5.0-jakarta-05072025</version>
 
     <distributionManagement>
         <!-- Repository in which we deploy this project, when desired. -->
@@ -56,8 +56,8 @@
             </plugin>
             <!-- Compiles the Openfire Admin Console JSP pages. -->
             <plugin>
-                <groupId>org.eclipse.jetty.ee8</groupId>
-                <artifactId>jetty-ee8-jspc-maven-plugin</artifactId>
+                <groupId>org.eclipse.jetty.ee9</groupId>
+                <artifactId>jetty-ee9-jspc-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
